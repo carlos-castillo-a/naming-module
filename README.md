@@ -25,7 +25,8 @@ These are the following input variables that will be
 | Name        | Type | Description | Default | Required |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | `env-map`   | map |  Environment variable used in naming of resources  | `"aws_s3_bucket"          = "s3"` | No |
-| `type-map`  | map |  Resource Type variable used in naming of resources  |    `"d"           = "dev"`   
+| `type-map`  | map |  Resource Type variable used in naming of resources  |    {
+    `"d"           = "dev"`   
     `"dev"         = "dev"`  
     `"development" = "dev"`  
     `"t"           = "test"`  
@@ -42,7 +43,7 @@ These are the following input variables that will be
     `"production"  = "prod"`  
     `"sandbox"     = "sbx"`  
     `"sbx"         = "sbx"`  
-    `"x"           = "sbx"` | No |
+    `"x"           = "sbx"` } | No |
 
 ## Output Variables
 Variables that can be referenced from this module
