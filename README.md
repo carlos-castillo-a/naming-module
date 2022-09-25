@@ -15,7 +15,7 @@ module "naming" {
 
 locals {
   env_id      = "${lookup(module.naming.env-map, var.environment, "ENV")}"
-  type        = "${lookup(module.naming.type-map, "azurerm_app_service", "TYP")}"
+  type        = "${lookup(module.naming.type-map, "aws_s3_bucket", "TYP")}"
 }
 ```
 
