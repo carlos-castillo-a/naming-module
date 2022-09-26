@@ -24,7 +24,7 @@ These are the following input variables that will be
 
 | Name        |  Description | Type | Default | Required |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| `env-map`   |  Environment mapping  | map | `"aws_s3_bucket"  = "s3"` | No |
+| `env-map`   |  Environment mapping  | map | `"aws_s3_bucket"  = "bucket"` | No |
 | `type-map`  |  Resource type mapping  | map | `"d"  = "dev"`<br>`"dev"  = "dev"`<br>`"development"  = "dev"`<br>`"t"  = "test"`<br>`"test"   = "test"`<br>`"testing"  = "test"`<br>`"u"  = "uat"`<br>`"uat"  = "uat"`<br>`"q"  = "qa"` <br>`"qa"  = "qa"`<br>`"s"  = "stg"`<br>`"staging"  = "stg"`<br>`"p"  = "prod"`<br>`"prod"  = "prod"`<br>`"production"  = "prod"`<br>`"sandbox"   = "sbx"`<br>`"sbx"  = "sbx"`<br>`"x"  = "sbx"` | No |
 
 ## Output Variables

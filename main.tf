@@ -4,7 +4,7 @@ variable "type-map" {
 
     default = {
         # AWS resources
-        "aws_s3_bucket"          = "s3"
+        "aws_s3_bucket"          = "bucket"
 
 
     }
