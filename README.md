@@ -22,10 +22,10 @@ locals {
 ## Input Variables
 These are the following input variables that will be 
 
-| Name        | Type | Description | Default | Required |
+| Name        |  Description | Type | Default | Required |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| `env-map`   | map |  Environment mapping  | `"aws_s3_bucket"  = "s3"` | No |
-| `type-map`  | map |  Resource type mapping  |  `"d"  = "dev"`<br>`"dev"  = "dev"`<br>`"development"  = "dev"`<br>`"t"  = "test"`<br>`"test"   = "test"`<br>`"testing"  = "test"`<br>`"u"  = "uat"`<br>`"uat"  = "uat"`<br>`"q"  = "qa"` <br>`"qa"  = "qa"`<br>`"s"  = "stg"`<br>`"staging"  = "stg"`<br>`"p"  = "prod"`<br>`"prod"  = "prod"`<br>`"production"  = "prod"`<br>`"sandbox"   = "sbx"`<br>`"sbx"  = "sbx"`<br>`"x"  = "sbx"` | No |
+| `env-map`   |  Environment mapping  | map | `"aws_s3_bucket"  = "s3"` | No |
+| `type-map`  |  Resource type mapping  | map | `"d"  = "dev"`<br>`"dev"  = "dev"`<br>`"development"  = "dev"`<br>`"t"  = "test"`<br>`"test"   = "test"`<br>`"testing"  = "test"`<br>`"u"  = "uat"`<br>`"uat"  = "uat"`<br>`"q"  = "qa"` <br>`"qa"  = "qa"`<br>`"s"  = "stg"`<br>`"staging"  = "stg"`<br>`"p"  = "prod"`<br>`"prod"  = "prod"`<br>`"production"  = "prod"`<br>`"sandbox"   = "sbx"`<br>`"sbx"  = "sbx"`<br>`"x"  = "sbx"` | No |
 
 ## Output Variables
 Variables that can be referenced from this module
