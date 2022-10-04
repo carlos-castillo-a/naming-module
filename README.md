@@ -4,7 +4,7 @@ Provides Terraform naming maps for cloud resources which can be referenced by ot
 ## Usage
 This module should be referenced by other resource modules and Terraform Cloud. An example of calling the module can be found below:
 
-```
+```HCL
 variable "environment" {
   default     = "staging"
 }
